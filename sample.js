@@ -2,12 +2,12 @@ function plus(n1, n2) {
   return n1 + n2;
 }
 
-function f3(a, b) {
-  if (a === "test" && b !== "temp") {
-    return b;
+function f3(valueA, valueB) {
+  if (valueA === "test" && valueB !== "temp") {
+    return valueB;
   } else {
-    return " " + b + "random text";
+    return " " + valueB + "random text";
   }
 }
 
-var totalnumberOf_catIn_tokyo_atLastYear = 0;
+let totalCat = 0;
